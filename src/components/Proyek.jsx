@@ -28,7 +28,7 @@ function Proyek() {
                     })}
                   </div>
                   <div className="mt-auto  text-center">
-                    <a href="#" className="mt-4 text-sm md:text-base bg-violet-700 p-3 rounded-lg block border border-zinc-600 hover:bg-violet-600">Lihat Demo</a>
+                    <a href="#" className="mt-4 text-sm md:text-base bg-sky-700 p-3 rounded-lg block border border-zinc-600 hover:bg-sky-600">Lihat Demo</a>
                   </div>
                 </div>
               </div>

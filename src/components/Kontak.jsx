@@ -26,7 +26,7 @@ function Kontak() {
                 name="nama"
                 placeholder="Masukan Nama..."
                 required
-                className="border text-sm md:text-base border-zinc-500 p-2 rounded-md  focus:border-violet-600 focus:outline-none"
+                className="border text-sm md:text-base border-zinc-500 p-2 rounded-md  focus:border-sky-600 focus:outline-none"
               />
             </div>
             <div className="flex flex-col gap-2">
@@ -38,7 +38,7 @@ function Kontak() {
                 name="email"
                 placeholder="Masukan Email.."
                 required
-                className="border text-sm md:text-base border-zinc-500 p-2 rounded-md  focus:border-violet-600 focus:outline-none"
+                className="border text-sm md:text-base border-zinc-500 p-2 rounded-md  focus:border-sky-600 focus:outline-none"
               />
             </div>
             <div className="flex flex-col gap-2">
@@ -52,12 +52,12 @@ function Kontak() {
                 rows="7"
                 placeholder="Masukan Pesan..."
                 required
-                className="border text-sm md:text-base border-zinc-500 p-2 rounded-md focus:border-violet-600 focus:outline-none"
+                className="border text-sm md:text-base border-zinc-500 p-2 rounded-md focus:border-sky-600 focus:outline-none"
               ></textarea>
             </div>
             <div className="text-center">
               <button
-                className="font-semibold focus:border-violet-600 focus:outline-none mt-4 text-sm md:text-base bg-violet-700 p-3 rounded-lg block border w-full cursor-pointer border-zinc-600 hover:bg-violet-600"
+                className="font-semibold focus:border-sky-600 focus:outline-none mt-4 text-sm md:text-base bg-sky-700 p-3 rounded-lg block border w-full cursor-pointer border-zinc-600 hover:bg-sky-600"
                 type="submit"
               >
                 Kirim Pesan!

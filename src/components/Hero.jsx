@@ -10,7 +10,7 @@ function Hero() {
         </q>
       </div>
       <h1 className="text-4xl md:text-5xl font-bold mb-6">
-        Hallo, Saya <span className="text-violet-500">Ananda Febiansyah</span>
+        Hallo, Saya <span className="text-blue-500">Ananda Febiansyah</span>
       </h1>
       <p className="text-base md:text-lg max-w-2xl mb-6 opacity-70">
         Saya seorang Web Developer dengan fokus pada pengembangan sistem
@@ -21,7 +21,7 @@ function Hero() {
       <div className="flex flex-wrap justify-center gap-3 sm:gap-4">
         <a
           href="https://drive.google.com/file/d/1lCjdP-ja8C0BmR7VedUXaGWIxrSmlZX4/view?usp=sharing" target="_blank"
-          className="bg-violet-700 px-5 py-3 rounded-2xl hover:bg-violet-600 text-sm md:text-base"
+          className="bg-blue-700 px-5 py-3 rounded-2xl hover:bg-blue-600 text-sm md:text-base"
         >
           Download CV <i className="ri-download-2-line ri-lg"></i>
         </a>
