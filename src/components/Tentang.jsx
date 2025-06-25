@@ -2,45 +2,22 @@ import React from "react";
 
 function Tentang() {
   return (
-    <>
-      <div id="tentang" className="tentang mt-32 py-10">
-        <div className=" w-full xl:w-2/3 lg:w-3/4  mx-auto p-7 bg-zinc-800 rounded-lg" >
-          <img
-            src="./assets/hero-img.webp"
-            className="w-12 rounded-md block mx-auto mb-7 sm:hidden"
-            alt=""
-            loading="lazy"
-          />
-          <p className="text-base/loose mb-10">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
-            consectetur reprehenderit mollitia, animi nam veritatis doloremque.
-            Eius ullam cum suscipit, consequatur, doloremque, perferendis
-            repellat dolor dicta laboriosam magni culpa beatae!
-          </p>
-          <div className="flex items-center justify-evenly sm:justify-between ">
-            <img
-              src="./assets/hero-img.webp"
-              className="w-12 rounded-md sm:block hidden"
-              alt="" loading="lazy"
-            />
-            <div className="flex items-center gap-10">
-              <div>
-                <h1 className="text-4xl mb-1">
-                  45 <span className="text-violet-500">+</span>
-                </h1>
-                <p>Proyek Selesai</p>
-              </div>
-              <div>
-                <h1 className="text-4xl mb-1">
-                  4 <span className="text-violet-500">+</span>
-                </h1>
-                <p>Tahun Pengalaman</p>
-              </div>
-            </div>
-          </div>
-        </div>
+    <div id="tentang" className="tentang mt-32 py-10">
+      <div className="w-full xl:w-2/3 lg:w-3/4 mx-auto p-7 bg-zinc-800 rounded-lg">
+        {/* Header */}
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-6">
+          Tentang Saya
+        </h2>
+
+        {/* Deskripsi */}
+        <p className="text-base md:text-lg leading-relaxed mb-10 text-center opacity-80">
+          Saya adalah seorang Full Stack Web Developer yang memiliki minat besar pada pengembangan aplikasi berbasis web. 
+          Terbiasa menggunakan Laravel dan React.js untuk membangun sistem yang efisien, responsif, dan mudah digunakan. 
+          Saya percaya bahwa teknologi yang baik adalah yang memberikan solusi nyata dan pengalaman terbaik bagi pengguna.
+        </p>
+
       </div>
-    </>
+    </div>
   );
 }
 
